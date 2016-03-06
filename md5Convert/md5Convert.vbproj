@@ -18,7 +18,7 @@
     <OptionCompare>Binary</OptionCompare>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <ApplicationIcon>Resources\encrypted.ico</ApplicationIcon>
     <SignManifests>false</SignManifests>
     <SignAssembly>false</SignAssembly>
@@ -27,7 +27,7 @@
     <DelaySign>false</DelaySign>
     <ManifestCertificateThumbprint>229A3BB6A9F7E6E0F4D9505A406783E51990BBC1</ManifestCertificateThumbprint>
     <ManifestKeyFile>Dominic_Signing.pfx</ManifestKeyFile>
-    <GenerateManifests>false</GenerateManifests>
+    <GenerateManifests>true</GenerateManifests>
     <TargetZone>LocalIntranet</TargetZone>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
     <FileUpgradeFlags>
@@ -36,24 +36,28 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <TargetFrameworkProfile />
-    <PublishUrl>publish/</PublishUrl>
+    <PublishUrl>Z:\MD5-Convert\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>false</MapFileExtensions>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://tools.dominicreich.com/MD5-Convert/</InstallUrl>
+    <UpdateUrl>http://tools.dominicreich.com/MD5-Convert/</UpdateUrl>
+    <SupportUrl>http://tmsn.at/%3ftools&amp;md5convert</SupportUrl>
+    <ErrorReportUrl>https://github.com/freefallcid/md5Convert/issues</ErrorReportUrl>
     <ProductName>MD5 Convert</ProductName>
     <PublisherName>Dominic Reich</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.2.0.0</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.2.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -272,5 +276,16 @@
   <ItemGroup>
     <None Include="Properties\app.manifest" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <PublishFile Include="darkfellow.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
 </Project>

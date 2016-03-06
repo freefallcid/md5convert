@@ -21,7 +21,7 @@ Imports System.Runtime.InteropServices
 
 ' This sets the default COM visibility of types in the assembly to invisible.
 ' If you need to expose a type to COM, use <ComVisible(true)> on that type.
-<Assembly: ComVisible(False)> 
+<Assembly: ComVisible(False)>
 
 ' The assembly version has following format :
 '
@@ -30,6 +30,6 @@ Imports System.Runtime.InteropServices
 ' You can specify all values by your own or you can build default build and revision
 ' numbers with the '*' character (the default):
 
-<Assembly: AssemblyVersion("1")> 
+<Assembly: AssemblyVersion("1.0.*")>
 
 <Assembly: NeutralResourcesLanguageAttribute("")> 
