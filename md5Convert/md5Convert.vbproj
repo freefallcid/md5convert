@@ -48,12 +48,12 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://tools.dominicreich.com/MD5-Convert/</InstallUrl>
     <UpdateUrl>http://tools.dominicreich.com/MD5-Convert/</UpdateUrl>
-    <SupportUrl>http://tmsn.at/%3ftools&amp;md5convert</SupportUrl>
+    <SupportUrl>http://klamm.io</SupportUrl>
     <ErrorReportUrl>https://github.com/freefallcid/md5Convert/issues</ErrorReportUrl>
     <ProductName>MD5 Convert</ProductName>
     <PublisherName>Dominic Reich</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.2.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>

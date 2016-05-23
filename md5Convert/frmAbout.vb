@@ -18,13 +18,13 @@ Public Partial Class frmAbout
     Sub FrmAboutLoad(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
         'lblTop.Text = "Dominic Reich" & Chr(13) & "Seite 37" & Chr(13) & "6433 Ötz"
         lblTop.Text = "Dominic Reich"
-        lblNotice.Text = "© 2010,2016 Dominic Reich" + Chr(13) + "Redesigned in 2016"
+        lblNotice.Text = "(C) 2010,2016 Dominic Reich" + Chr(13) + "Redesigned 2016"
     End Sub
 	
     Sub LnkEmailLinkClicked(ByVal sender As Object, ByVal e As LinkLabelLinkClickedEventArgs) Handles lnkEmail.LinkClicked
         ' http://dotnet-snippets.de/dns/c-webseite-mit-standartbrowser-oeffnen-SID919.aspx
         On Error GoTo ShowError
-        System.Diagnostics.Process.Start("mailto:Dominic Reich <dominic@tmsn.at>")
+        System.Diagnostics.Process.Start("mailto:Dominic Reich <dr@klamm.io>")
         lnkEmail.LinkVisited = True
         Exit Sub
 ShowError:
@@ -38,7 +38,7 @@ ShowError:
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkWebsiteLink.LinkClicked
         ' http://dotnet-snippets.de/dns/c-webseite-mit-standartbrowser-oeffnen-SID919.aspx
         On Error GoTo ShowError
-        System.Diagnostics.Process.Start("http://tmsn.at/?tools&md5convert")
+        System.Diagnostics.Process.Start("http://klamm.io")
         lnkWebsiteLink.LinkVisited = True
         Exit Sub
 ShowError:

@@ -58,12 +58,12 @@ Partial Class frmAbout
         Me.lnkEmail.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lnkEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lnkEmail.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
-        Me.lnkEmail.Location = New System.Drawing.Point(17, 41)
+        Me.lnkEmail.Location = New System.Drawing.Point(17, 36)
         Me.lnkEmail.Name = "lnkEmail"
-        Me.lnkEmail.Size = New System.Drawing.Size(100, 19)
+        Me.lnkEmail.Size = New System.Drawing.Size(77, 19)
         Me.lnkEmail.TabIndex = 1
         Me.lnkEmail.TabStop = True
-        Me.lnkEmail.Text = "dominic@tmsn.at"
+        Me.lnkEmail.Text = "dr@klamm.io"
         Me.lnkEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lnkEmail.UseCompatibleTextRendering = True
         '
@@ -71,7 +71,7 @@ Partial Class frmAbout
         '
         Me.lblNotice.AutoSize = True
         Me.lblNotice.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNotice.Location = New System.Drawing.Point(14, 141)
+        Me.lblNotice.Location = New System.Drawing.Point(14, 140)
         Me.lblNotice.Name = "lblNotice"
         Me.lblNotice.Size = New System.Drawing.Size(41, 15)
         Me.lblNotice.TabIndex = 3
@@ -106,12 +106,12 @@ Partial Class frmAbout
         Me.lnkWebsiteLink.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lnkWebsiteLink.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lnkWebsiteLink.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
-        Me.lnkWebsiteLink.Location = New System.Drawing.Point(17, 63)
+        Me.lnkWebsiteLink.Location = New System.Drawing.Point(17, 55)
         Me.lnkWebsiteLink.Name = "lnkWebsiteLink"
-        Me.lnkWebsiteLink.Size = New System.Drawing.Size(185, 19)
+        Me.lnkWebsiteLink.Size = New System.Drawing.Size(56, 19)
         Me.lnkWebsiteLink.TabIndex = 5
         Me.lnkWebsiteLink.TabStop = True
-        Me.lnkWebsiteLink.Text = "http://tmsn.at/?tools&&md5convert"
+        Me.lnkWebsiteLink.Text = "Webseite"
         Me.lnkWebsiteLink.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lnkWebsiteLink.UseCompatibleTextRendering = True
         '
