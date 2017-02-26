@@ -60,10 +60,10 @@ Partial Class frmAbout
         Me.lnkEmail.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.lnkEmail.Location = New System.Drawing.Point(17, 36)
         Me.lnkEmail.Name = "lnkEmail"
-        Me.lnkEmail.Size = New System.Drawing.Size(77, 19)
+        Me.lnkEmail.Size = New System.Drawing.Size(35, 19)
         Me.lnkEmail.TabIndex = 1
         Me.lnkEmail.TabStop = True
-        Me.lnkEmail.Text = "dr@klamm.io"
+        Me.lnkEmail.Text = "Email"
         Me.lnkEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lnkEmail.UseCompatibleTextRendering = True
         '

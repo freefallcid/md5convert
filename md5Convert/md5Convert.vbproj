@@ -48,7 +48,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://tools.dominicreich.com/MD5-Convert/</InstallUrl>
     <UpdateUrl>http://tools.dominicreich.com/MD5-Convert/</UpdateUrl>
-    <SupportUrl>http://klamm.io</SupportUrl>
+    <SupportUrl>https://dominicreich.com</SupportUrl>
     <ErrorReportUrl>https://github.com/freefallcid/md5Convert/issues</ErrorReportUrl>
     <ProductName>MD5 Convert</ProductName>
     <PublisherName>Dominic Reich</PublisherName>

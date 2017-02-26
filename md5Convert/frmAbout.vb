@@ -24,7 +24,7 @@ Public Partial Class frmAbout
     Sub LnkEmailLinkClicked(ByVal sender As Object, ByVal e As LinkLabelLinkClickedEventArgs) Handles lnkEmail.LinkClicked
         ' http://dotnet-snippets.de/dns/c-webseite-mit-standartbrowser-oeffnen-SID919.aspx
         On Error GoTo ShowError
-        System.Diagnostics.Process.Start("mailto:Dominic Reich <dr@klamm.io>")
+        System.Diagnostics.Process.Start("mailto:Dominic Reich <info@dominicreich.com>")
         lnkEmail.LinkVisited = True
         Exit Sub
 ShowError:
@@ -38,7 +38,7 @@ ShowError:
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkWebsiteLink.LinkClicked
         ' http://dotnet-snippets.de/dns/c-webseite-mit-standartbrowser-oeffnen-SID919.aspx
         On Error GoTo ShowError
-        System.Diagnostics.Process.Start("http://klamm.io")
+        System.Diagnostics.Process.Start("https://dominicreich.com")
         lnkWebsiteLink.LinkVisited = True
         Exit Sub
 ShowError:
